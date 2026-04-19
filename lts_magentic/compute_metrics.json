@@ -1,0 +1,97 @@
+{
+  "shared_memory": {
+    "cpu_usage": {
+      "peak": 228.4,
+      "average": 114.2
+    },
+    "memory_usage": {
+      "peak_mb": 565.01171875,
+      "delta_mb": 141.2734375
+    },
+    "gpu_memory": {
+      "peak_mb": 0,
+      "delta_mb": 0
+    },
+    "execution_time": 17.829328536987305,
+    "tokens_processed": 111,
+    "embeddings_computed": 6,
+    "memory_operations": 18,
+    "compute_efficiency": {
+      "tokens_per_second": 6.225697157900717,
+      "embeddings_per_second": 0.33652417069733603,
+      "memory_ops_per_second": 1.009572512092008
+    },
+    "performance": {
+      "total_tasks": 6,
+      "successful_tasks": 6,
+      "accuracy": 1.0,
+      "avg_time_per_task": 2.971554756164551,
+      "tasks_per_second": 0.33652417069733603
+    },
+    "component_costs": {
+      "memory_bank_size_mb": 0.0,
+      "controller_parameters": 262913,
+      "embedder_model_size_mb": 420.0,
+      "teams_count": 4
+    }
+  },
+  "no_memory": {
+    "cpu_usage": {
+      "peak": 0.0,
+      "average": 0.0
+    },
+    "memory_usage": {
+      "peak_mb": 546.40625,
+      "delta_mb": 0.0
+    },
+    "gpu_memory": {
+      "peak_mb": 0,
+      "delta_mb": 0
+    },
+    "execution_time": 0.0010688304901123047,
+    "tokens_processed": 111,
+    "embeddings_computed": 0,
+    "memory_operations": 0,
+    "compute_efficiency": {
+      "tokens_per_second": 103851.82779388802,
+      "embeddings_per_second": 0.0,
+      "memory_ops_per_second": 0.0
+    },
+    "performance": {
+      "total_tasks": 6,
+      "successful_tasks": 0,
+      "accuracy": 0.0,
+      "avg_time_per_task": 0.00017813841501871744,
+      "tasks_per_second": 5613.612313183136
+    },
+    "component_costs": {
+      "memory_bank_size_mb": 0,
+      "controller_parameters": 0,
+      "embedder_model_size_mb": 0,
+      "agents_count": 4
+    }
+  },
+  "comparison": {
+    "performance": {
+      "accuracy_improvement": 1.0,
+      "speed_ratio": 16681.156368503234,
+      "time_per_task_ratio": 16681.156368503234
+    },
+    "resources": {
+      "memory_overhead_mb": 18.60546875,
+      "cpu_overhead": 114.2,
+      "gpu_memory_mb": 0
+    },
+    "efficiency": {
+      "compute_per_accuracy": {
+        "shared": 17.829328536987305,
+        "no_memory": Infinity
+      },
+      "memory_per_task": {
+        "shared": 94.16861979166667,
+        "no_memory": 91.06770833333333
+      }
+    }
+  },
+  "timestamp": "2026-04-03T01:29:57.363103"
+}

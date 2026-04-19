@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-04-03T00:44:40.462929",
+  "num_trajectories": 0,
+  "num_tasks": 26,
+  "config": {
+    "orchestrator_model": "groq/llama-3.3-70b",
+    "worker_models": [
+      "qwen2.5:7b",
+      "llama3.2:3b"
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "max_parallel_teams": 4,
+    "memory_bank_size": 1000,
+    "embedding_dim": 384,
+    "controller_hidden_dim": 256,
+    "controller_layers": 2,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "epochs": 10,
+    "dataset_path": "data/tasks.json",
+    "controller_path": "controller.pt",
+    "trajectories_path": "trajectories.pt",
+    "groq_api_key": "",
+    "ollama_base_url": "http://localhost:11434"
+  },
+  "aggregated_results": {
+    "accuracy": 0.0,
+    "avg_reward": 0.0,
+    "memory_usage_rate": 0.0,
+    "team_diversity": 0.0,
+    "memory_bank_efficiency": 0.7
+  }
+}
