@@ -2,7 +2,7 @@
 
 A complete implementation of the "Learning to Share" (LTS) paper using Microsoft AutoGen + MagenticOne with a hybrid architecture:
 
-- 💻 **Local (Cursor)** → execution engine
+- 💻 **Local ** → execution engine
 - ☁️ **Google Colab (T4 GPU)** → controller training
 
 ## 🚀 Key Features
